@@ -1,2 +1,2 @@
 # Solar EXE Landing Page
-![](//preview.jpg)
+![](preview.jpg)
