@@ -368,3 +368,119 @@ body {
 .button__text {
 
 }
+
+/* STEPS */
+
+.steps {
+    margin-bottom: 150px;
+}
+
+.steps__inner {
+    display: flex;
+}
+
+.steps__content {
+    margin-right: 90px;
+}
+
+.section-title {
+
+}
+
+.steps__list {
+    counter-reset: number;
+}
+
+.steps__item {
+    counter-increment: number;
+    margin-bottom: 30px;
+}
+
+.steps__item::before {
+    content: '0' counter(number);
+    color: #868585;
+    margin-bottom: 11px;
+    display: inline-block;
+}
+
+.steps__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 2px;
+}
+
+.steps__img {
+    flex-basis: 600px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+
+.footer {
+    background-image: url('./../images/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0 50px;
+    color: #fff;
+}
+
+.footer__main {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__form-container {
+    flex-basis: 510px;
+
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 43px;
+    margin-bottom: 60px;
+}
+
+.footer__form-input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin-bottom: 60px;
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    outline: none;
+}
+
+.footer__form-input::placeholder {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.footer__form-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #fff;
+}
+
+.footer__contacts-item {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
